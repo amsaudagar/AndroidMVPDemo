@@ -13,6 +13,8 @@ public interface IMainPresenter extends IMvpBasePresenter {
      * @return
      */
     IMainView getView();
+
+    void loadProductDetails();
 }
 
 
